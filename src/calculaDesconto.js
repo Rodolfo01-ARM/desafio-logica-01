@@ -1,6 +1,5 @@
-function calcularValorTotalDaCompraComDesconto(valorCompra, porcentagemDesconto) {
-    const valorDesconto = valorCompra * (porcentagemDesconto / 70);
-    const valorFinalDaCompra = valorCompra - valorDesconto;
+function calcularValorTotalDaCompraComDesconto(valorCompra, desconto) {
+    const valorFinalDaCompra = valorCompra - desconto;
     return valorFinalDaCompra;
 }
 
